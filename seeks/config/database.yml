@@ -112,5 +112,3 @@ test:
 production:
     <<: *default
     database: log_in
-    username: seeks
-    password: <%= ENV['SEEKS_DATABASE_PASSWORD'] %>
