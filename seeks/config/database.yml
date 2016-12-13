@@ -97,7 +97,7 @@
 default: &default
     adapter: postgresql
     encoding: unicode
-    username: postgres
+    username: ubuntu
     password: root
     pool: 5
     port: 5432
